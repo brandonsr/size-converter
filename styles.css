@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+.main{
+    display: inline-grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-auto-flow: dense;
+}
+.c{
+    padding: 50px;
+    border: 1px solid black;
+    margin: 20px;
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(red, yellow, skyblue);
+    box-shadow: 2px 2px 6px;
+    transition: transform 2s
+}
+
+.c:hover{
+    transform: rotate3d(1, 2.0, 1.0, 360deg);
+}
+
+.kmtomt{
+    grid-column-start: 1;
+}
+
+.cmtomt{
+    grid-column-start: 2;
+}
+
+.fttoyrd{
+    grid-column-start: 3;
+}
