@@ -38,3 +38,17 @@ a{
 .fttoyrd{
     grid-column-start: 3;
 }
+
+@media only screen and (max-width: 770px){
+    .main{
+        display: grid;
+        grid-template-columns: repeat(1, 250px);
+        margin: 10px;
+    }
+    .c{
+        width: 200px;
+        height: 10px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
